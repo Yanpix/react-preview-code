@@ -1,0 +1,18 @@
+.emploeey-cart-table {
+  margin: 45px 0;
+}
+
+.emploeey-cart-table h2 {
+  text-align: center;
+}
+
+.emploeey-cart-table .total {
+  text-align: right;
+  font-size: 1.3rem;
+  margin-right: 10px;
+}
+
+.emploeey-cart-table button {
+  margin-left: 5px;
+  margin-top: 5px;
+}

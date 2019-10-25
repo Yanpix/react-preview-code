@@ -1,0 +1,42 @@
+.user-list-item {
+  display: flex;
+  margin: 15px 0;
+}
+
+.user-list-item .user-cover {
+  flex-shrink: 0;
+  width: 120px;
+  margin-right: 30px;
+}
+
+.user-list-item .user-cover img {
+  max-width: 100%;
+}
+
+.user-list-item .user-details {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 90%;
+  margin-right: 10%;
+}
+
+.user-list-item .user-details div {
+  flex-grow: 1;
+}
+
+.user-list-item .user-details .user-title {
+  font-size: 1.2rem;
+}
+
+.user-list-item .user-details .user-author {
+  font-size: 1.2rem;
+  font-family: 'Liu Jian Mao Cao', cursive;
+}
+
+.user-list-item .user-details .user-blockqoute span{
+  font-size: 1rem;
+  font-style: italic;
+}
